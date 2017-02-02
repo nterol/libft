@@ -6,7 +6,7 @@
 #    By: nterol <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/09 10:37:37 by nterol            #+#    #+#              #
-#    Updated: 2016/12/05 10:32:24 by nterol           ###   ########.fr        #
+#    Updated: 2017/01/05 13:26:09 by nterol           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ SRC = ./ft_atoi.c ./ft_putchar.c ./ft_putstr.c ./ft_strcmp.c ./ft_strlen.c\
 	  ./ft_lstdel.c ./ft_lstadd.c ./ft_lstiter.c ./ft_lstmap.c\
 	  ./ft_print_bits.c ./ft_swapbits.c ./ft_isupper.c\
 	  ./ft_islower.c ./ft_iterative_factorial.c ./ft_lstprint.c\
-	  ./ft_lstaddback.c
+	  ./ft_lstaddback.c ./ft_putnbrendl.c
 
 
 OBJ = 	$(SRC:.c=.o)
@@ -46,12 +46,15 @@ $(NAME) : $(OBJ)
 	@$(CC) $(CFLAGS) $(SRC) -I $(HEADER)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
+	clear
 
 clean :
 	@/bin/rm -rf $(OBJ)
+	clear
 
 fclean : clean
 	@/bin/rm -f $(NAME)
+	clear
 
 re : fclean all
 

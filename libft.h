@@ -6,7 +6,7 @@
 /*   By: nterol <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/09 10:16:48 by nterol            #+#    #+#             */
-/*   Updated: 2016/11/28 18:39:15 by nterol           ###   ########.fr       */
+/*   Updated: 2017/01/31 18:16:58 by nterol           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ size_t				ft_strlen(const char *str);
 void				ft_putchar(char c);
 void				ft_putchar_fd(const char s, int fd);
 void				ft_putnbr(int n);
+void				ft_putnbrendl(int n);
 void				ft_putnbr_fd(int n, int fd);
 int					ft_strcmp(char *s1, char *s2);
 char				*ft_strcpy(char *dest, char *src);
