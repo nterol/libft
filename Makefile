@@ -6,7 +6,7 @@
 #    By: nterol <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/09 10:37:37 by nterol            #+#    #+#              #
-#    Updated: 2017/02/08 13:57:49 by nterol           ###   ########.fr        #
+#    Updated: 2017/02/20 21:17:37 by nterol           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ SRC = ./ft_atoi.c ./ft_putchar.c ./ft_putstr.c ./ft_strcmp.c ./ft_strlen.c\
 	  ./ft_lstdel.c ./ft_lstadd.c ./ft_lstiter.c ./ft_lstmap.c\
 	  ./ft_print_bits.c ./ft_swapbits.c ./ft_isupper.c\
 	  ./ft_islower.c ./ft_iterative_factorial.c ./ft_lstprint.c\
-	  ./ft_lstaddback.c ./ft_putnbrendl.c ./ft_strjoinch.c
+	  ./ft_lstaddback.c ./ft_putnbrendl.c ./ft_strjoinch.c ./ft_count.c
 
 
 OBJ = 	$(SRC:.c=.o)
